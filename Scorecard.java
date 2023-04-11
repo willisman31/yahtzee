@@ -1,0 +1,32 @@
+public class Scorecard {
+
+	enum Upper {
+		ACES,
+		TWOS,
+		THREES,
+		FOURS,
+		FIVES,
+		SIXES
+	}
+
+	enum Lower {
+		THREEOFAKIND,
+		FOUROFAKIND,
+		FULLHOUSE,
+		SMALLSTRAIGHT,
+		LARGESTRAIGHT,
+		YAHTZEE,
+		YAHTZEEBONUS,
+		CHANCE
+	}
+
+	enum Sums {
+		UPPERTOTAL,
+		UPPERBONUS,
+		UPPERTOTALAFTERBONUS,
+		LOWERTOTAL,
+		GRANDTOTAL
+	}
+
+}
+
